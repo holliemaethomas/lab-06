@@ -1,0 +1,35 @@
+{
+  "name": "lab-06",
+  "version": "1.0.0",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB: HTTP and REST ========================================================",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --verbose --coverage --watchAll",
+    "start": "node ./data/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holliemaethomas/lab-06.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holliemaethomas/lab-06/issues"
+  },
+  "homepage": "https://github.com/holliemaethomas/lab-06#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.9.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-json-view": "^1.19.1",
+    "superagent": "^4.0.0-beta.5",
+    "supertest": "^3.3.0",
+    "test": "^0.6.0"
+  }
+}
