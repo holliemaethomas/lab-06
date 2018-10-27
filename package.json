@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage --verbose",
     "test-watch": "jest --verbose --coverage --watchAll",
-    "supertest" : "supertest",
+    "supertest" : "supertest ./_tests_/server-test.js",
     "start": "node ./data/server.js"
   },
   "repository": {
