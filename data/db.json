@@ -1,0 +1,18 @@
+{
+  "categories": [{
+    "_id" : 1,
+    "name" : "produce",
+    "display_name": "delicious", 
+    "description": "red apple"
+ }],
+  "products":[
+    {
+      "_id" : 1,
+      "category" : "produce",
+      "name": "apple", 
+      "display_name": "red apple",
+      "description": "fruit"
+    }
+  ]
+
+}
